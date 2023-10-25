@@ -1,0 +1,463 @@
+/*
+Theme Name: Juice Center
+Theme URI: https://www.theclassictemplates.com/themes/free-juice-wordpress-theme/
+Author: classictemplate
+Author URI: https://www.theclassictemplates.com/
+Description: Juice Center is the perfect WordPress theme for a vibrant and thriving juice bar or smoothie shop. It's a special website template designed to make your juice business stand out in the digital world. Just like a fresh juice bursting with flavors, this theme is packed with features and designs that will make your website appealing and engaging. It's designed to showcase your delicious offerings, from energizing green smoothies to refreshing fruit juices. The theme's layout is like the smooth flow of your business, ensuring that your website looks great on all devices, whether it's a big computer screen or a smartphone. Moreover, this theme is user-friendly. Meaning, you don't need to be a tech expert to use it. You can easily add your juice menu, show off mouth watering images of your drinks, and even share health tips or recipes with your customers. It's like having your own personal blender in the digital world, mixing up all the right ingredients to create an online presence that your customers will love. As a juice bar owner, this theme is your secret ingredient for success. It's like a recipe for a tasty and profitable website. You can attract more customers, take online orders, and even share your passion for healthy living. It's an all-in-one tool to help your juice business thrive in the competitive world of beverages.
+Template: classic-bakery
+Version: 0.1
+Tested up to: 6.3
+Requires PHP: 5.6
+Requires at least: 5.0
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: juice-center
+Tags: blog, e-commerce, food-and-drink, right-sidebar, left-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, custom-logo, post-formats, full-width-template, featured-images, custom-colors, editor-style, wide-blocks, block-styles, custom-header, custom-background, custom-menu, sticky-post, threaded-comments, theme-options, rtl-language-support
+
+Juice Center WordPress Theme has been created by classictemplate (theclassictemplates.com), 2023.
+Juice Center WordPress Theme is released under the terms of GNU GPL
+
+Juice Center WordPress Theme is child theme of Classic Bakery WordPress Theme, Copyright 2023 classictemplate (theclassictemplates.com)
+Classic Bakery WordPress Theme is distributed under the terms of the GNU GPL
+*/
+
+body{
+  margin:0;
+  padding:0;
+  line-height:20px;
+  font-size:13px;
+  color:#aaaaaa;
+  font-family: 'Poppins', sans-serif;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  background: #ffffff;
+  overflow-x: hidden !important;
+}
+#error-page{
+  margin-top: 0 !important;
+}
+a, a:hover{
+  text-decoration: none;
+  color:#febc18;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Emilys Candy', serif;
+  font-weight: 400;
+  color:#000;
+}
+/*block css*/
+.postsec-list .wp-block-button a:hover, 
+.site-main .wp-block-button.is-style-outline .wp-block-button__link:not(.has-background):hover{
+  background-color: #febc18;
+  color: #fff !important;
+}
+.postsec-list .wp-block-button__link{
+  background: #febc18;
+  color:#fff !important;
+  border-radius: 30px;
+}
+.postsec-list .wp-block-button.is-style-outline a{
+  background:none;
+  border:1px solid #febc18 !important;
+  color: #febc18 !important;
+}
+/* = top header css
+-------------------------------------- */
+.search-cart{
+  border-color: #febc18;
+}
+.bg-color{
+  background: #dbb78d;
+  position: fixed;
+  top: auto;
+  z-index: 555;
+  width: 284px;
+  padding: 0;
+  left: 0;
+  height: 100%;
+}
+.header{
+  background-color: #fff;
+}
+.scroll-box {
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.outer-area{
+  padding-left: 284px;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 111;
+}
+.header::-webkit-scrollbar-track{
+  background-color: #f3efed;
+}
+.header::-webkit-scrollbar{
+  width: 5px;
+  background-color: #f3efed;
+}
+.header::-webkit-scrollbar-thumb{
+  background-color: #febc18;
+}
+h1.site-title, p.site-title{
+  font-size: 35px;
+  margin-bottom: 0;
+  color:#febc18;
+}
+h1.site-title a, p.site-title a{
+  color: #febc18;
+  font-family: 'Emilys Candy', serif;
+  font-size: 36px;
+  word-wrap: break-word;
+  display: block;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+h1.site-title a:hover, p.site-title a:hover, #footer p.site-title a:hover{
+  color: #febc18;
+}
+span.site-description {
+  font-size: 14px;
+  color: #282828;
+}
+h1.site-title a:hover {
+  text-decoration: unset;
+}
+.social-icons i {
+  font-size: 20px;
+  margin-right: 20px;
+}
+#footer .social-icons i:hover{
+  background-color: #febc18;
+  border-color:#febc18;
+}
+.social-icons{
+  margin-bottom: 3em !important;
+}
+.social-icons i:hover{
+  background-color: #febc18;
+  color:#fff;
+}
+
+/*scroll to top*/
+#button{
+  background: #febc18;
+  color:#fff;
+}
+.nav-links .page-numbers{
+  background-color: #282828;
+}
+.listarticle h2 a:hover, #sidebar ul li a:hover, .ftr-4-box ul li a:hover, .ftr-4-box ul li.current_page_item a{
+  color: #febc18;
+}
+.woocommerce span.onsale{
+  background-color: #febc18 !important;
+}
+/* = header css
+-------------------------------------- */
+.rsvp_button a {
+  padding: 14px 40px;
+  font-size: 20px;
+  font-weight: 500;
+  display: inline-block;
+  outline: solid 2px #febc18;
+  outline-offset: 4px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #febc18;
+  text-align: center;
+}
+.rsvp_button a:hover {
+  background-color: #282828;
+  outline-color: #282828;
+}
+.rsvp_inner{
+  border:none;
+}
+.listarticle .rsvp_button a, .woocommerce a.added_to_cart,.woocommerce ul.products li.product .button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce a.button, .woocommerce button.button, .woocommerce #respond input#submit, #commentform input#submit {
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  display: inline-block;
+  outline: solid 2px #febc18;
+  outline-offset: 2px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #febc18;
+  text-align: center;
+  border:none;
+}
+.woocommerce table.shop_table, .woocommerce .quantity .qty{
+  border-color: #febc18 !important;
+}
+.woocommerce a.added_to_cart {
+  margin-top: 10px;
+  padding: 10px 40px 10px 37px;
+}
+.listarticle .rsvp_button a:hover, .pagemore a:hover,
+.woocommerce ul.products li.product .button:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+#commentform input#submit:hover,.woocommerce a.added_to_cart:hover {
+  background-color: #282828;
+  outline-color: #282828;
+}
+.woocommerce input#coupon_code{
+  padding: 10px;
+}
+.woocommerce table.cart td.actions .input-text, .woocommerce-page #content table.cart td.actions .input-text, .woocommerce-page table.cart td.actions .input-text{
+  width: 110px;
+}
+.woocommerce ul.products li.product .onsale{
+  background-color: #febc18 !important;
+}
+/* = menus css */
+.main-nav li ul{
+  border: none;
+}
+.main-nav a{
+  font-size: 16px;
+}
+.main-nav a, .main-nav a:hover {
+  color: #282828;
+  padding: 12px;
+  z-index: 9999;
+}
+.main-nav a:hover {
+  font-weight: 600;
+}
+.main-nav ul ul a {
+  color: #febc18;
+  border: none;
+  padding: 15px;
+  text-align: center;
+}
+.main-nav li ul {
+  border-top: 3px solid #febc18 !important;
+  box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.4);
+}
+.main-nav .menu > ul > li.highlight {
+  background-color: #006ccc;
+}
+
+/* Style for the currently active menu item */
+.main-nav .current_page_item {
+    position: relative;
+}
+.main-menu .current_page_item a::after,
+.main-menu .current-menu-item a::after{
+  content: '';
+  background-image: url(./images/menu-cover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 185px;
+  height: 50px;
+  position: absolute;
+  right: 15%;
+  left: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.main-menu .current_page_item a::before,
+.main-menu .current-menu-item a::before {
+    content: '\2022'; 
+    margin-right: 10px; 
+}
+/*Clearing floats css*/
+.page-links a, .page-links span{
+  color: #febc18;
+  border: 1px solid #febc18;
+}
+.page-links .post-page-numbers.current, .page-links a:hover{
+  background-color: #febc18 !important;
+  color: #fff;
+}
+/* = slider section css
+-------------------------------------- */
+.slider-img-color{
+  background-color: #febc18;
+  width:1800px;
+}
+.widget .tagcloud a:hover, .catwrapslider .owl-prev:hover, .catwrapslider .owl-next:hover, .site-main .wp-block-button__link, .postsec-list .wp-block-button__link{
+  background-color: #febc18;
+}
+.widget .tagcloud a:hover{
+  border-color:#febc18;
+  color:#fff;
+}
+.site-main .wp-block-button__link:hover, .postsec-list .wp-block-button__link:hover, .page-links a, .page-links span{
+  background-color: #282828;
+  color:#fff;
+}
+/* =product section
+-------------------------------------- */
+.product-head-box h2{
+  color:#febc18;
+  text-transform: capitalize;
+}
+.product-head-box p{
+  color:#777777;
+}
+.product-image img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.product-image {
+    border: 1px solid #eee;
+}
+.product-text a{
+  color: #aaa9a8;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.pro-icons i{
+  order: 3;
+}
+.pro-icons i:hover{
+  background: #fff;
+}
+.box-content span.woocommerce-Price-amount.amount bdi {
+  color: #aaa9a8;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 18px;
+}
+.box-content span.woocommerce-Price-amount.amount bdi:hover, .pro-icons a.button.wp-element-button.product_type_simple:hover{
+  color: #febc18;
+}
+del span.woocommerce-Price-amount.amount bdi{
+  display: none;
+}
+.pro-icons a.button.wp-element-button.product_type_simple{
+  transform: rotate(270deg);
+  padding: 20px 14px;
+  color: #aaa9a8;
+  margin-left: 30px;
+  order: 3;
+  background-color: #fff;
+}
+.pro-icons a.button.product_type_simple.add_to_cart_button{
+  background: url(./images/product-cart.png) no-repeat scroll 12px #fff;
+  text-indent: -9999px;
+  padding: 20px 14px !important;
+  order: 2;
+  margin-bottom: 5px;
+  margin-right: 0px;
+  transform: rotate(0deg);
+  margin-left: 0;
+}
+.wishlist_view{
+  order: 2;
+}
+.wishlist_view i{
+  padding: 14px 17px !important;
+  background-color: #fff;
+  color: #aaa9a8;
+}
+.wishlist_view i:hover{
+  color: #febc18;
+}
+.pro-icons a.button.product_type_simple.add_to_cart_button:hover{
+  background: url(./images/add-cart.png) no-repeat scroll 12px #fff;
+}
+.pro-icons .added_to_cart.wc-forward:hover{
+  background: url(./images/add-eyes.png) no-repeat scroll 12px #fff;
+}
+.pro-icons .added_to_cart.wc-forward{
+  background: url(./images/add-product-cart.png) no-repeat scroll 12px #fff;
+  text-indent: -9999px;
+  padding: 20px 12px !important;
+  order: 3;
+  border-radius: 0 !important;
+  margin: 5px 0;
+  color: #fff;
+  transform: rotate(0deg);
+}
+.pro-icons{
+  display: inline-block;
+  position: absolute;
+  top: 15%;
+  margin: 0;
+  writing-mode: tb-rl;
+  padding: 30px 13px;
+  text-align: left;
+  left: 5%;
+  right: auto;
+  transform: rotate(0deg);
+}
+.page4box{
+  position: relative;
+}
+
+/*footer*/
+.postsec-list .search-form input.search-submit, .widget_calendar caption, .widget_calendar #today, span.page-numbers.current, .nav-links .page-numbers:hover, #sidebar input.search-submit, #footer input.search-submit, form.woocommerce-product-search button{
+  background-color: #febc18;
+}
+#footer{
+  background-color: #282828;
+}
+.postsec-list .search-form input.search-submit, #sidebar input[type="text"], #sidebar input[type="search"], #footer input[type="search"]{
+  border-color: #febc18;
+}
+#sidebar ul li::before{
+  color: #febc18 !important;
+}
+#sidebar .widget{
+  border-bottom: 3px solid #febc18;
+}
+nav.woocommerce-MyAccount-navigation ul li, .woocommerce-message, span.page-numbers.current, .nav-links .page-numbers:hover{
+  border-color: #febc18 !important;
+}
+#sidebar .widget a:hover, #sidebar .widget a:active, .listarticle h2 a, .woocommerce-message::before{
+  color: #febc18;
+}
+#sidebar .widget-title{
+  color: #000;
+}
+nav.woocommerce-MyAccount-navigation ul li{
+  background-color: #febc18 !important;
+}
+/*responsive*/
+@media screen and (max-width: 999px) and (min-width: 720px){
+  .product-image img{
+    height: 200px;
+  }
+  .pro-icons{
+    top: 5%;
+  }
+  .search-cart, .social-icons{
+    margin-bottom: 0 !important;
+  }
+}
+@media screen and (max-width: 1000px){
+  .sidenav, .toggle-nav button{
+    background-color: #febc18 !important;
+    outline: solid 2px #febc18 !important;
+    outline-offset: 4px;
+  }
+  .main-nav a:hover{
+    background:none;
+  }
+  .bg-color{
+    height: 100% !important;
+  }
+  .logo{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  } 
+}

@@ -1,0 +1,76 @@
+{
+	"title": "Salmon",
+	"version": 2,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#000000",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#ffffff",
+					"name": "Background"
+				},
+				{
+					"slug": "light",
+					"color": "#fefefe",
+					"name": "Light"
+				},
+				{
+					"slug": "dark",
+					"color": "#330D01",
+					"name": "Dark"
+				},
+				{
+					"slug": "headings",
+					"color": "#020202",
+					"name": "Headings"
+				},
+				{
+					"slug": "text-regular",
+					"color": "#606060",
+					"name": "Text Regular"
+				},
+				{
+					"slug": "text-light",
+					"color": "#909090",
+					"name": "Text Light"
+				},
+				{
+					"slug": "text-lighter",
+					"color": "#D4D4D4",
+					"name": "Text Lighter"
+				},
+				{
+					"slug": "background-light",
+					"color": "#fff4e1",
+					"name": "Background Light"
+				},
+				{
+					"slug": "primary",
+					"color": "#fa8072",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#FDF7EC",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#FBF1DE",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "stroke",
+					"color": "#E5E4E3",
+					"name": "Stroke"
+				}
+			]
+		}
+	}
+}

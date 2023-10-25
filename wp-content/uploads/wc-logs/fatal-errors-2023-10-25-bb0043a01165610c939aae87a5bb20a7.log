@@ -1,0 +1,4 @@
+2023-10-25T04:07:13+00:00 CRITICAL Maximum execution time of 120 seconds exceeded di C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-filesystem-direct.php pada baris 82
+
+2023-10-25T13:12:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded di C:\xampp\htdocs\wordpress\wp-includes\Requests\src\Transport\Curl.php pada baris 534
+

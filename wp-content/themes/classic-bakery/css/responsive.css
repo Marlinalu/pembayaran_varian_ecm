@@ -1,0 +1,215 @@
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 520px) {
+  .ftr-4-box {
+    width: 100%;
+    float: none;
+    margin: 0;
+    padding: 15px 0;
+  }
+  .slider-box p,
+  .slide-btn {
+    display: none;
+  }
+  .slider-box h1 {
+    display: none;
+  }
+  .bg-color{
+    position: static;
+    width: auto;
+  }
+  .outer-area{
+    padding: 0;
+  }
+  #product_cat_slider {
+    margin-top: 25px;
+  }
+}
+
+/* Mobile Portrait View */
+@media screen and (max-width: 767px) {
+  #mySidenav nav#site-navigation {
+    background: transparent;
+  }
+  .wpcf7 input[type="text"],
+  .wpcf7 input[type="tel"],
+  .wpcf7 input[type="email"],
+  .wpcf7 textarea {
+    width: 100%;
+  }
+  .slider-img-color, .slidesection img{
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  #mySidenav nav#site-navigation {
+    background: transparent;
+  }
+  .slider-box h1 {
+    font-size: 55px;
+  }
+  .bg-color{
+    position: static;
+    width: auto;
+  }
+  .outer-area{
+    padding: 0;
+  }
+  .social-icons i {
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main-nav ul ul, .main-nav .sub-menu{
+    opacity: 1;
+  }
+  .main-nav .sub-menu{
+      margin-left: 25px;
+  }
+  .main-nav li ul{
+    border:none;
+    box-shadow: none;
+    border-top: none !important;
+  }
+  .main-nav .sub-menu li{
+    border-bottom: none;
+  }
+  .slider-box {
+    left: 15%;
+    right: 15%;
+    text-align: center;
+  }
+  .toggle-nav {
+    border: none;
+    border-radius: 30px;
+    display: inline-block !important;
+    padding: 2px;
+  }
+  .toggle-nav button {
+    font-weight: 500;
+    border: none;
+    background: #ff819f;
+    outline: solid 2px #ff819f;
+    outline-offset: 4px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 30px;
+    padding: 16px;
+  }
+  .sidenav {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: -110%;
+    overflow-x: hidden;
+    transition: 0.5s top ease-in-out;
+    overflow-y: scroll;
+    background: #ff819f;
+    opacity: 0.9;
+    visibility: hidden;
+  }
+  body.show-main-menu .sidenav {
+    visibility: visible;
+    top: 0;
+    transition: 0.5s top ease-in-out;
+  }
+  .sidenav .close-button {
+    font-size: 36px;
+    display: block !important;
+    color: #fff;
+    padding: 18px;
+    text-align: left;
+    margin-bottom: 35px !important;
+  }
+  .sidenav #site-navigation {
+    width: 100%;
+  }
+  .toggle-nav span {
+    font-size: 30px;
+    cursor: pointer;
+    text-align: right;
+  }
+  .main-nav ul ul li,
+  .menubar .nav ul li,
+  .toggle-nav {
+    display: block;
+  }
+  .main-nav ul li a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    display: block;
+    float: none;
+    margin: 5px 0;
+    border-right: none;
+    text-align: left;
+  }
+  .main-nav ul li ul li a:before {
+    content: "\00BB \00a0";
+  }
+  .main-nav ul.sub-menu a:hover {
+    padding-left: 40px !important;
+    color: #fff;
+  }
+  .main-nav ul ul {
+    position: static;
+    width: 100%;
+    background: transparent !important;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    box-shadow: none;
+  }
+  .main-nav ul ul a {
+    border-bottom: none;
+    padding-left: 40px;
+  }
+  .main-nav ul ul ul.sub-menu a {
+    padding-left: 40px;
+  }
+  .main-nav li {
+    padding: 0 15px;
+    display: block;
+    border-bottom: solid 1px #fff;
+  }
+  .main-header-box {
+    padding-bottom: 15px;
+  }
+  #mySidenav {
+    text-align: left;
+    display: inline;
+  }
+  .main-menu {
+    padding: 0em;
+  }
+  .main-nav ul.sub-menu > li > a:before {
+    content: unset;
+  }
+  .main-nav ul.sub-menu > li > a:hover:before {
+    opacity: 0;
+    left: 0px;
+    width: 0px;
+  }
+  .main-nav a:hover,
+  .main-nav ul ul a:hover {
+    color: #ff819f;
+  }
+  .main-nav ul ul li{
+    text-align: center;
+  }
+  .admin-bar #mySidenav{
+    margin-top: 42px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  .slider-box {
+    left: 15%;
+    right: 15%;
+  }
+  .slider-box h1 {
+    font-size: 40px;
+  }
+}

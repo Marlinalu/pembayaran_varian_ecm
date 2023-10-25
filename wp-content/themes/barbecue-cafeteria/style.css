@@ -1,0 +1,278 @@
+@charset "UTF-8";
+/*
+Theme Name: Barbecue Cafeteria
+Author: TheMagnifico52
+Theme URI: https://www.themagnifico.net/themes/free-cafeteria-wordpress-theme/
+Author URI: https://www.themagnifico.net/
+Description: Barbeque Cafeteria is a dynamic website template designed for barbeque restaurants, cafeterias, and culinary enthusiasts. It captures the essence of barbeque culture with its warm and inviting design, featuring succulent grilled dishes that instantly set the mood and evoke the flavors of the grill. This theme is all about sizzling flavors, smoky aromas, and savory delights. With a clean and responsive design, the theme ensures that your website appears enticing and functions flawlessly on various devices. It offers a host of benefits, making it easy for both technical experts and novices to create a visually appealing and functional online environment for their barbeque businesses. Whether you're a grill master, restaurant owner, or food blogger, this theme caters to everyone. The Barbeque Cafeteria WordPress Theme enhances the user experience with a range of features and functionalities. It allows you to showcase your menu, share mouthwatering recipes, and enable online reservations, driving customer interaction. Its user-friendly interface ensures that visitors can navigate your website with ease, creating a delightful online journey. This theme is all about igniting your online presence with the flavors and traditions of barbeque. Whether you're grilling up a storm or sharing your culinary passion, the Barbeque Cafeteria WordPress Theme is the secret sauce to create an enticing and sizzling online presence, making it a powerful tool for showcasing your dishes and driving your barbeque business to new heights.
+Version: 0.1
+Tested up to: 6.3
+Requires PHP: 5.6
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: restaurant-zone
+Text Domain: barbecue-cafeteria
+Tags: custom-logo, one-column, two-columns, wide-blocks, block-styles, editor-style, sticky-post, custom-background, custom-colors, custom-header, custom-menu, featured-images, flexible-header, full-width-template, threaded-comments, theme-options, rtl-language-support, left-sidebar, right-sidebar, grid-layout, photography, e-commerce, food-and-drink
+
+Barbecue Cafeteria WordPress Theme has been created by TheMagnifico52(themagnifico.net), 2023.
+Barbecue Cafeteria WordPress Theme is released under the terms of GNU GPL
+*/
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Cookie";
+}
+body{
+    font-family: "Lato";
+    background: #f2dec5;
+}
+p{
+    font-family: "Lato";
+}
+
+.sidebar p a, .entry-content a, .entry-summary a, .comment-content a,.widget a:hover, .widget a:focus,a, .sidebar ul li a:hover, #colophon a:hover, #colophon a:focus, p.price, .woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce-message::before, .woocommerce-info::before, .slider-inner-box a h2,.slider-inner-box h2,.main-navigation .menu > li > a:hover{
+    color: #911d1d;
+}
+.slide-btn a:hover,.main-navigation .sub-menu,.toggle-nav button,.woocommerce a.added_to_cart,.sidebar .tagcloud a:hover,.sidebar input[type="submit"], .sidebar button[type="submit"],.serach_inner,.sticky .entry-title::before, #button, .sidebar input[type="submit"], .comment-respond input#submit, .post-navigation .nav-previous a:hover, .post-navigation .nav-next a:hover, .posts-navigation .nav-previous a:hover, .posts-navigation .nav-next a:hover, .woocommerce .woocommerce-ordering select, .woocommerce ul.products li.product .onsale, .woocommerce span.onsale, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .wp-block-button__link, .woocommerce-account .woocommerce-MyAccount-navigation ul li, .sidebar h5, .toggle-nav i, span.onsale, .serach_inner [type="submit"],span.cart-value {
+    background: #911d1d;
+}
+.post-navigation .nav-previous a:hover, .post-navigation .nav-next a:hover, .posts-navigation .nav-previous a:hover, .posts-navigation .nav-next a:hover{
+    border-color: #911d1d;
+}
+.reservation-btn a{
+    background:#7b1919;
+}
+.top-info i{
+    color: #ffffff;
+}
+.socialmedia{
+    background: #911d1d;
+}
+#mySidenav {
+    justify-content: flex-start;
+}
+.sidebar .tagcloud a,.sidebar section,.sidebar tr,.sidebar th, #theme-sidebar td,.sidebar table#wp-calendar,.article-box{
+    border-color: #ffffff;
+}
+.slide-btn a:hover{
+    border-color: #911d1d;
+}
+
+.main-navigation .menu > li > a:hover{
+    background: #911d1d;
+    color: #fff !important;
+}
+.main-navigation .menu .sub-menu li.current-menu-item a:hover{
+    color: #ffffff !important;
+}
+.slider-inner-box h2{
+    font-family: "Cookie";
+    color: #fffaec;
+}
+.slider-inner-box p {
+    color: #fff;
+    font-family: "Lora";
+}
+.slider-inner-box {
+    top: 60%;
+}
+.serv-box h4 a{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 400;
+    font-style: italic;
+}
+.serv-box h4:after {
+    top: 18px;
+    width: 16%;
+}
+.serv-box h4 {
+    width: 50%;
+}
+.product-image img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+p.cart-btn a{
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+    font-weight: 500;
+    letter-spacing: 0;
+    font-family: "Lora";
+}
+.serv-box span.price {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    color: #911d1d;
+}
+#items-section h3 {
+    color: #911d1d;
+    background: url(assets/img/heading-icon.png) no-repeat scroll 440px 55px;
+}
+.serv-box a:hover {
+    color: #911d1d;
+}
+.product-content p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #888888;
+    font-weight: 400;
+    font-family: "Lato";
+}
+.slider-box {
+    background: #000;
+}
+.slider-post::-webkit-scrollbar {
+    width: 5px;
+}
+.slider-post::-webkit-scrollbar-thumb {
+    background-color: #911d1d;
+    border-radius: 10px;
+}
+.slider-post {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 500px;
+}
+#top-slider .slide-bg{
+    background-color: #000;
+    height: 600px;
+}
+#top-slider img {
+    opacity: 0.5;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.woocommerce-message, .woocommerce-info {
+    border-top-color: #911d1d;
+}
+.serach_inner button {
+    background: #000 !important;
+}
+.footer-column {
+    border-bottom: 1px solid #fff;
+}
+#colophon {
+    background: #000;
+}
+.slider-inner-box h2{
+    text-transform: none;
+}
+.slider-inner-box h2 a{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.page-template-custom-front-page .head-menu {
+    background: rgb(125 25 25 / 50%);
+}
+.wp-block-quote, .wp-block-quote:not(.is-large):not(.is-style-large), .wp-block-pullquote{
+    border-color: #911d1d !important;
+}
+.page-template-page-template .main_header{
+    background: transparent;
+}
+.slide-btn a {
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+#latest-product .owl-nav,#latest-product .owl-dots{
+    display: none;
+}
+#latest-product h3 {
+    font-size: 35px;
+    font-size: 30px;
+    color: #1b1b1b;
+    font-weight: 700;
+}
+.product-image {
+    position: relative;
+}
+.product-content {
+    position: relative;
+}
+.product-box h5.price {
+    color: #fff !important;
+    font-size: 16px;
+}
+h5.price {
+    position: absolute;
+    background: #911d1d;
+    top: -55px;
+    right: 0px;
+    padding: 18px 12px;
+    border-radius: 40px;
+    left: 0px;
+    margin: 0 auto;
+    width: 75px;
+    height: 75px;
+}
+.sidebar section{
+    padding: 10px;
+}
+.wp-block-button__link{
+    background: #911d1d !important;
+}
+.wp-block-button.is-style-squared a.wp-block-button__link {
+    border-radius: 0px;
+}
+.wp-block-button.is-style-outline a.wp-block-button__link{
+    background-color: transparent !important;
+    color: #911d1d !important;
+    margin: 10px 0px; 
+}
+
+#mySidenav {
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 575px) {
+    #top-slider img{
+        height: 300px;
+    }
+    .slide-btn{
+        margin-top: 30px;
+    }
+    .slide-box{
+        padding-right: 0px !important;
+    }
+    .slider-inner-box h2 a {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 767px) {
+    #top-slider {
+        height: 100%;
+    }
+    .slider-inner-box {
+        right: 10%;
+        left: 10%;
+        top: 50%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .slider-inner-box {
+        right: 8%;
+        left: 8%;
+        top: 65%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .main-navigation .menu > li > a{
+        color: #ffffff;
+    }
+    .main-navigation .menu li.current-menu-item a{
+        color: #911d1d !important;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    .serv-box h4:after{
+        display: none;
+    }
+}
